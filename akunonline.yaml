@@ -1,0 +1,365 @@
+proxies:
+- name: TRJSG-IFLIX1 
+  type: trojan
+  server: sg.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: upload.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: upload.iflix.com
+# =================================================
+- name: TRJID-IFLIX1 
+  type: trojan
+  server: id2.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: upload.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: upload.iflix.com
+# =================================================
+- name: TRJSG-IFLIX2 
+  type: trojan
+  server: sg.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: live.iflix.com
+# =================================================
+- name: TRJID-IFLIX2 
+  type: trojan
+  server: id2.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: live.iflix.com
+# =================================================
+- name: TRJSG-IFLIX3 
+  type: trojan
+  server: sg.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: access.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: access.iflix.com
+# =================================================
+- name: TRJID-IFLIX3 
+  type: trojan
+  server: id2.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: access.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: access.iflix.com
+# =================================================
+- name: TRJSG-IFLIX4 
+  type: trojan
+  server: sg.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: hwvip.iflix.com
+# =================================================
+- name: TRJID-IFLIX4 
+  type: trojan
+  server: id2.hendravps.my.id
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: hwvip.iflix.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: hwvip.iflix.com
+# =================================================
+- name: VIDIO TRJSG-1
+  type: trojan
+  server: quiz.int.vidio.com 
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# =================================================
+- name: VIDIO TRJID-1
+  type: trojan
+  server: quiz.int.vidio.com 
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# =================================================
+- name: VIDIO TRJSG-2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# =================================================
+- name: VIDIO TRJID-2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# =================================================
+- name: VIDIO TRJSG-3
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# =================================================
+- name: VIDIO TRJID-3
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# =================================================
+- name: VIDIO TRJSG-4
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# =================================================
+- name: VIDIO TRJID-4
+  type: trojan
+  server: 104.17.155.243
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# =================================================
+- name: VIDIO TRJSG-5
+  type: trojan
+  server: www.vidio.com.cdn.cloudflare.net
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# ===============================================
+- name: VIDIO TRJID-5
+  type: trojan
+  server: www.vidio.com.cdn.cloudflare.net
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# ===============================================
+- name: WLG TRJSG-1
+  type: trojan
+  server: ava.game.naver.com 
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: ava.game.naver.com.sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: ava.game.naver.com.sg.hendravps.my.id
+# =================================================
+- name: WLG TRJSG-2
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: account.pmang.game.naver.com.sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: account.pmang.game.naver.com.sg.hendravps.my.id
+# =================================================
+- name: WLG TRJSG-3
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: df.game.naver.com.sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: df.game.naver.com.sg.hendravps.my.id
+# =================================================
+- name: WLG TRJID-1
+  type: trojan
+  server: ava.game.naver.com 
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: ava.game.naver.com.id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: ava.game.naver.com.id2.hendravps.my.id
+# =================================================
+- name: WLG TRJID-2
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: account.pmang.game.naver.com.id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: account.pmang.game.naver.com.id2.hendravps.my.id
+# =================================================
+- name: WLG TRJID-3
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: df.game.naver.com.id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: df.game.naver.com.id2.hendravps.my.id
+# =================================================
+- name: RED TRJSG-1
+  type: trojan
+  server: 104.26.7.171
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: sg.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg.hendravps.my.id
+# =================================================
+- name: RED TRJID-1
+  type: trojan
+  server: 104.26.7.171
+  port: 443
+  password: hendratrj
+  udp: true
+  sni: id2.hendravps.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2.hendravps.my.id
+# =================================================
